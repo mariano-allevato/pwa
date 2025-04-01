@@ -1,9 +1,7 @@
-
-// public/manifest.json
 {
-  "name": "Example Lite",
-  "short_name": "Example",
-  "start_url": ".",
+  "name": "test Lite",
+  "short_name": "test",
+  "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#0a0a0a",
