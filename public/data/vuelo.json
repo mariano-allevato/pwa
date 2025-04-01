@@ -1,0 +1,21 @@
+{
+  "vuelo": "AR1234",
+  "destino": "Santiago de Chile - Arica",
+  "fecha": "2025-04-01T10:00:00Z",
+  "tripulacion": [
+    { "nombre": "Comandante Laura Torres", "rol": "Piloto" },
+    { "nombre": "Pedro Martínez", "rol": "Copiloto" }
+  ],
+  "pasajeros": [
+    { "nombre": "Juan Pérez", "documento": "DNI 12345678", "pasaporte": "XK123456", "visado": "Aprobado" },
+    { "nombre": "María Gómez", "documento": "DNI 87654321", "pasaporte": "XK876543", "visado": "Pendiente" }
+  ],
+  "tramites": [
+    "Validación de visado (Migraciones)",
+    "Check-in de tripulación",
+    "Autorización ANAC",
+    "Permiso de Aduana",
+    "Documentación médica OK"
+  ],
+  "observaciones": "Pasajero María Gómez requiere verificación manual del visado antes del despegue."
+}
