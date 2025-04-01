@@ -1,5 +1,3 @@
-este asi?
-
 // public/service-worker.js
 const CACHE_NAME = 'aerowise-cache-v1';
 const urlsToCache = [
@@ -7,8 +5,8 @@ const urlsToCache = [
   '/index.html',
   '/manifest.json',
   '/data/vuelo.json',
-  '/icons/icon-192.png',
-  '/icons/icon-512.png'
+ // '/icons/icon-192.png',
+ // '/icons/icon-512.png'
 ];
 
 self.addEventListener('install', event => {
