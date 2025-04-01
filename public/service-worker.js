@@ -1,12 +1,11 @@
 // public/service-worker.js
-const CACHE_NAME = 'aerowise-cache-v1';
+const CACHE_NAME = 'cache-v1';
 const urlsToCache = [
   '/',
   '/index.html',
   '/manifest.json',
   '/data/vuelo.json',
- // '/icons/icon-192.png',
- // '/icons/icon-512.png'
+  '/assets/index.css'           // y el CSS
 ];
 
 self.addEventListener('install', event => {
